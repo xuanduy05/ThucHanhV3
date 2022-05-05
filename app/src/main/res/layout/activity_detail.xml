@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76ED73"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EF0C0C"
+        android:gravity="center"
+        android:text="View Detail"
+        android:textColor="#FAF5F5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ID:"
+        android:textColor="#F60202" />
+
+    <TextView
+        android:id="@+id/txtuser_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="User_name" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/txtclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Class" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtemail"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Email:" />-->
+
+    <TextView
+        android:id="@+id/txtcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Contact:" />
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Address:" />
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/txtadmin_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F60202"
+        android:text="Admin_ID" />
+</LinearLayout>
